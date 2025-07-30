@@ -1,0 +1,17 @@
+{
+  "name": "webgpu-game-of-life",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life implemented with WebGPU",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.44",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["webgpu", "game-of-life", "javascript"],
+  "author": "",
+  "license": "MIT"
+}
